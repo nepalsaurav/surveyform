@@ -6,6 +6,7 @@ header {
   margin: 10px 200px 0px 200px;
   display: grid;
   grid-template-columns: auto;
+  max-width: 450px;
 }
 
 @@media query (min) {
@@ -41,6 +42,7 @@ form {
   padding: 1em;
   border-radius: 20px;
   margin: 0px 200px 50px 200px;
+  max-width: 450px;
 }
 
 @media only screen
