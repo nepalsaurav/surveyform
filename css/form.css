@@ -1,0 +1,123 @@
+header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px 200px 0px 200px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+@@media query (min) {
+
+}
+
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+#description {
+  text-align: center;
+}
+
+body {
+  background: #92bde7;
+  color: #485e74;
+  line-height: 1.6;
+  padding: 1em;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+form {
+  background: lightgrey;
+  color: inherit;
+  line-height: 1.6;
+  padding: 1em;
+  border-radius: 20px;
+  margin: 0px 200px 50px 200px;
+}
+
+@media only screen
+  and (max-device-width: 812px) {
+    form {
+      margin: auto;
+    }
+    header {
+      margin: auto;
+    }
+
+}
+
+
+form-all {
+
+width: 200px!important;
+
+height: 200px!important;
+
+}
+
+#survey-form {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+#submit {
+  display: block;
+  width: 20%;
+  padding: 0.75rem;
+  background: lightgrey;
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: yellow;
+}
